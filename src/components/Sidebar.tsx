@@ -1,0 +1,13 @@
+import React from 'react'
+
+interface SidebarProps {
+
+}
+
+export const Sidebar: React.FC<SidebarProps> = ({}) => {
+    return (
+        <div>
+            Hello there
+        </div>
+    );
+}

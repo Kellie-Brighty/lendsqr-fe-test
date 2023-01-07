@@ -1,0 +1,114 @@
+@import "../../Style_variables/Variables.scss";
+
+.Login {
+  max-width: 1400px;
+  margin: auto;
+  height: 100vh;
+  .inner_flex {
+    display: flex;
+    height: 100%;
+    .left {
+      flex: 1;
+      background-color: rgb(251, 251, 251);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .logo {
+        width: 173px;
+        margin-top: -100px;
+      }
+      .illustration_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        .illustration {
+        }
+      }
+    }
+    .right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .title {
+        color: $primary_color;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: -0.04em;
+      }
+      .subtitle {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: $text_color;
+        margin-top: 10px;
+      }
+      .input_container {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        .custom_input {
+          border: 2px solid rgba(84, 95, 125, 0.15);
+          border-radius: 5px;
+          box-sizing: border-box;
+          width: 447px;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          padding-right: 10px;
+        }
+        .input_box {
+          outline: none;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          padding: 0px 10px;
+          color: $text_color;
+          height: 100%;
+          border: none;
+          width: 100%;
+        }
+        .password_toggle {
+          color: $secondary_color;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 16px;
+          text-align: center;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      }
+      .forgot_password {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: left;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $secondary_color;
+        margin-top: 24px;
+        cursor: pointer;
+      }
+      .login_btn {
+        text-transform: uppercase;
+        background-color: $secondary_color;
+        color: $white_color;
+        border: none;
+        width: 447px;
+        height: 48px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        margin-top: 30px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+    }
+  }
+}

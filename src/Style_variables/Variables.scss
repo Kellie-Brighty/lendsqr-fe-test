@@ -1,0 +1,12 @@
+//COLORS
+
+$primary_color: rgb(33, 64, 125);
+$secondary_color: rgb(57, 205, 204);
+$text_color: rgb(84, 95, 125);
+$white_color: rgb(255, 255, 255);
+
+//FONTS
+
+//Work Sans was imported from https://fonts.google.com through a CDN link in the index.HTML page, so to add another custom fonts, it needs to be imported in the HTML page before being dcalared globally in here.
+
+$general_font: "Work Sans";
