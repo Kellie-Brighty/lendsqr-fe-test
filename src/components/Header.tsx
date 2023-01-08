@@ -32,7 +32,7 @@ export const Header: React.FC<HeaderProps> = ({}) => {
               alt="profile_picture"
               className="profile_picture"
             />
-            <p className="profile_name" >Adedeji</p>
+            <p className="profile_name">Adedeji</p>
             <img src={Arrow_Down} alt="menu_opener" className="arrow_down" />
           </div>
         </div>

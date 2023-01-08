@@ -45,7 +45,10 @@ export const LoginSection: React.FC<LoginSectionProps> = ({}) => {
               </div>
             </div>
             <p className="forgot_password">Forgot Password</p>
-            <button className="login_btn" onClick={() => navigate("/users")}>
+            <button
+              className="login_btn"
+              onClick={() => navigate("/")}
+            >
               Log In
             </button>
           </div>

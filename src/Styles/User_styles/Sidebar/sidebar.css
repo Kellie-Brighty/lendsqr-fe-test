@@ -1,0 +1,95 @@
+.Sidebar {
+  display: flex;
+  max-width: 1440px;
+  margin: auto;
+}
+.Sidebar .main_sidebar {
+  background: #fff;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+  height: 84.9vh;
+  width: 283px;
+  overflow-y: scroll;
+}
+.Sidebar .main_sidebar .switch_org {
+  display: flex;
+  align-items: center;
+  margin-top: 39px;
+  padding: 0px 35px;
+}
+.Sidebar .main_sidebar .switch_org .switch_org_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 19px;
+  color: rgb(33, 64, 125);
+  margin: 0px 15px;
+}
+.Sidebar .main_sidebar .switch_org .switch_arrow {
+  cursor: pointer;
+}
+.Sidebar .main_sidebar .dashboard_text_container {
+  display: flex;
+  align-items: center;
+  margin-top: 52px;
+  margin-bottom: 41px;
+  padding: 0px 35px;
+  opacity: 0.6;
+}
+.Sidebar .main_sidebar .dashboard_text_container .dashboard_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 15px;
+  color: rgb(33, 64, 125);
+}
+.Sidebar .main_sidebar .sidebar_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(84, 95, 125);
+  text-transform: uppercase;
+  padding: 0px 35px;
+}
+.Sidebar .main_sidebar .sidebar_link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 0.6;
+  padding: 20px 35px;
+  cursor: pointer;
+}
+.Sidebar .main_sidebar .sidebar_link .link_title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 15px;
+  color: rgb(33, 64, 125);
+}
+.Sidebar .main_sidebar .sidebar_link_selected {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(243, 252, 252);
+  border-left: 3px solid rgb(57, 205, 204);
+  padding: 20px 35px;
+  cursor: pointer;
+}
+.Sidebar .main_sidebar .sidebar_link_selected .link_title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 15px;
+  color: rgb(33, 64, 125);
+}
+.Sidebar .main_content {
+  background-color: #fbfbfb;
+  width: 80%;
+}
+
+.main_sidebar::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=sidebar.css.map */
