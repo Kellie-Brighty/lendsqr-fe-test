@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import "../Styles/Login_styles/login.css";
 import Logo from "../assets/images/lendsqr_logo.png";
 import Illustration from "../assets/svgs/login_illustration.svg";
+import { useNavigate } from "react-router-dom";
 
 interface LoginSectionProps {}
 
 export const LoginSection: React.FC<LoginSectionProps> = ({}) => {
   const [show, setShow] = useState(false);
+  const navigate = useNavigate();
 
   const togglePassword = () => {
     setShow(!show);
@@ -42,8 +44,10 @@ export const LoginSection: React.FC<LoginSectionProps> = ({}) => {
                 </p>
               </div>
             </div>
-            <p className="forgot_password" >Forgot Password</p>
-            <button className="login_btn" >Log In</button>
+            <p className="forgot_password">Forgot Password</p>
+            <button className="login_btn" onClick={() => navigate("/users")}>
+              Log In
+            </button>
           </div>
         </div>
       </div>

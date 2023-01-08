@@ -1,5 +1,5 @@
 .Login {
-  max-width: 1400px;
+  max-width: 1440px;
   margin: auto;
   height: 100vh;
 }
@@ -70,6 +70,8 @@
   height: 100%;
   border: none;
   width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .Login .inner_flex .right .input_container .password_toggle {
   color: rgb(57, 205, 204);
