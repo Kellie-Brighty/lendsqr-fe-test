@@ -1,0 +1,43 @@
+.Users {
+  padding: 60px;
+}
+.Users .main_title {
+  color: rgb(33, 64, 125);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+.Users .cards_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.Users .cards_container .card {
+  background: #ffffff;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  width: 160px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+}
+.Users .cards_container .card .card_title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin: 15px 0px;
+  color: rgb(84, 95, 125);
+}
+.Users .cards_container .card .card_number {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: rgb(33, 64, 125);
+}/*# sourceMappingURL=Users.css.map */

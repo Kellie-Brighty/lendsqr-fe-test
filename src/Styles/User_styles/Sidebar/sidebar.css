@@ -5,7 +5,7 @@
 }
 .Sidebar .main_sidebar {
   background: #fff;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
   height: 84.9vh;
   width: 283px;
   overflow-y: scroll;
